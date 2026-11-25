@@ -30,7 +30,9 @@ const fmtPhone = (p) => {
 
 function renderProjects() {
   document.getElementById('apps').innerHTML = PROJECTS.map((p, i) => `
-    <a class="app" href="${BASE + p.path}" style="--c:${p.color}; animation-delay:${0.1 + i * 0.07}s">
+    
+    <a class="app" href="${p.url || (BASE + p.path)}" style="--c:${p.color}; animation-delay:${0.1 + i * 0.07}s">
+
       <div class="a-icon">${p.icon}</div>
       <div class="a-body">
         <h3><span class="ltr">${p.name}</span>${i === 0 ? '<span class="new">⭐ חדש</span>' : ''}</h3>
