@@ -13,6 +13,7 @@ const PROJECTS = [
   { name: 'Itot3', path: 'Itot3/', icon: '🏭', color: '#ef476f', desc: 'IT, OT, SCADA ו-PLC – הכל באפליקציה אחת' },
   { name: 'Bipbip3', path: 'Bipbip3/', icon: '🚗', color: '#ffd166', desc: 'תיאוריה וחינוך תעבורתי – 738 שאלות, מבחן מדומה ומשחקי נהיגה' },
   { name: 'Chess Vanila', path: 'chess-vanila/', icon: '♟️', color: '#cfd5ff', desc: 'שחמט קלאסי – לוח מלא, בדיקת מהלכים, ומשחק מול המחשב' },
+{ name: 'Formulary', url: 'https://github.io', icon: '🚀', color: '#ff7eb3', desc: 'נוסחאון על – מתמטיקה, פיזיקה ואווירונאוטיקה (3, 4, 5 יח"ל ותואר ראשון)' }
 ];
 
 // Used only when adv.json cannot be loaded (for example when the page is opened as a local file).
